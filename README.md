@@ -1,6 +1,6 @@
 ## images iterator 图片路径遍历器
 
-#### 功能
+### 功能
 
 遍历一个文件夹內的图片名，并写入文件 xxx(图片文件夹)/index.js 里
 
@@ -20,7 +20,7 @@ export default {
 };
 ```
 
-#### 应用场景
+### 应用场景
 
 写 react 项目时，如果图片很多，不必一个个手写引入，可以批量处理
 
@@ -47,7 +47,7 @@ function Container(props) {
 }
 ```
 
-#### 用法：
+### 用法：
 
 ```
 npm run iterate [images' path]
